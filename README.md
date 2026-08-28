@@ -1,4 +1,5 @@
-Anchor Bound
+**#ANCHOR BOUND**
+
 Anchor Bound is a full-stack, decentralized identity management and credential verification platform. It enables the secure issuance of permanent, non-transferable digital records in the form of Soulbound Tokens (SBTs) on the Polygon Amoy blockchain.
 
 Core Features
