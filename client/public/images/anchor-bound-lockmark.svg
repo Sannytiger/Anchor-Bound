@@ -1,0 +1,19 @@
+<svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+  <g fill="none" stroke="#1536b8" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <!-- anchor ring -->
+    <circle cx="60" cy="26" r="11" fill="#f7f3eb" />
+    <!-- shackle -->
+    <path d="M60 37 L60 66" />
+    <!-- crossbar -->
+    <path d="M38 50 L82 50" />
+    <!-- flukes -->
+    <path d="M60 66 C60 92 30 96 24 78" />
+    <path d="M60 66 C60 92 90 96 96 78" />
+    <!-- fluke tips -->
+    <path d="M18 72 L24 78 L30 70" />
+    <path d="M102 72 L96 78 L90 70" />
+  </g>
+  <!-- keyhole notch cut into the anchor ring, echoing "lock" -->
+  <circle cx="60" cy="26" r="4.2" fill="#1536b8" />
+  <path d="M60 29 L57.4 36 L62.6 36 Z" fill="#1536b8" />
+</svg>

@@ -1,0 +1,58 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="deskGrid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0 L0 0 0 28" fill="none" stroke="#1536b8" stroke-opacity="0.08" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <!-- desk background -->
+  <rect width="800" height="600" fill="#efe9dc"/>
+  <rect width="800" height="600" fill="url(#deskGrid)"/>
+
+  <!-- drop shadow for the document -->
+  <rect x="182" y="82" width="440" height="440" fill="#15181d" opacity="0.10" transform="rotate(-1.4 400 300)"/>
+
+  <!-- the credential sheet -->
+  <g transform="rotate(-1.4 400 300)">
+    <rect x="175" y="75" width="440" height="440" fill="#fbf8f1" stroke="#15181d" stroke-width="2"/>
+    <!-- inner rule border -->
+    <rect x="196" y="96" width="398" height="398" fill="none" stroke="#1536b8" stroke-width="1.5"/>
+
+    <!-- header mono label -->
+    <rect x="218" y="120" width="150" height="10" fill="#1536b8" opacity="0.85"/>
+    <rect x="218" y="138" width="90" height="7" fill="#5d6470" opacity="0.55"/>
+
+    <!-- title lockup -->
+    <text x="218" y="196" font-family="Georgia, 'Times New Roman', serif" font-size="40" fill="#15181d">Certificate</text>
+    <text x="218" y="230" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-style="italic" fill="#5d6470">of verified provenance</text>
+
+    <!-- body text lines -->
+    <rect x="218" y="266" width="356" height="6" fill="#15181d" opacity="0.14"/>
+    <rect x="218" y="284" width="356" height="6" fill="#15181d" opacity="0.14"/>
+    <rect x="218" y="302" width="240" height="6" fill="#15181d" opacity="0.14"/>
+
+    <!-- recipient line -->
+    <rect x="218" y="336" width="200" height="9" fill="#1536b8" opacity="0.75"/>
+    <rect x="218" y="352" width="356" height="1.4" fill="#15181d" opacity="0.3"/>
+
+    <!-- footer: signature + seal -->
+    <rect x="218" y="450" width="120" height="1.4" fill="#15181d" opacity="0.4"/>
+    <text x="218" y="470" font-family="'IBM Plex Mono', monospace" font-size="10" letter-spacing="1" fill="#5d6470">AUTHORIZED SIGNATORY</text>
+
+    <!-- wax-style seal -->
+    <circle cx="524" cy="446" r="34" fill="#c83928"/>
+    <circle cx="524" cy="446" r="34" fill="none" stroke="#15181d" stroke-width="1.5" opacity="0.35"/>
+    <path d="M524 424 L530 440 L547 440 L533 450 L538 466 L524 456 L510 466 L515 450 L501 440 L518 440 Z" fill="#fbf8f1" opacity="0.9"/>
+
+    <!-- corner registration marks -->
+    <path d="M196 96 l18 0 M196 96 l0 18" stroke="#c83928" stroke-width="2"/>
+    <path d="M594 494 l-18 0 M594 494 l0 -18" stroke="#c83928" stroke-width="2"/>
+  </g>
+
+  <!-- fountain pen resting diagonally in the foreground -->
+  <g transform="translate(560 470) rotate(38)">
+    <rect x="0" y="0" width="150" height="10" rx="5" fill="#15181d"/>
+    <rect x="0" y="0" width="46" height="10" rx="5" fill="#1536b8"/>
+    <path d="M150 5 L168 0 L168 10 Z" fill="#c8f348" stroke="#15181d" stroke-width="1"/>
+  </g>
+</svg>
